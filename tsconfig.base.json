@@ -11,15 +11,9 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "es2020",
-    "lib": [
-      "es2018",
-      "dom"
-    ],
+    "lib": ["es2018", "dom"],
     "paths": {
-      "ng-mat-theme-picker": [
-        "dist/ng-mat-theme-picker/ng-mat-theme-picker",
-        "dist/ng-mat-theme-picker"
-      ]
+      "ng-gtag": ["dist/ng-gtag/ng-gtag", "dist/ng-gtag"]
     }
   }
 }

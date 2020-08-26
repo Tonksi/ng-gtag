@@ -1,6 +1,6 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/ng-mat-theme-picker",
+  "dest": "../../dist/ng-gtag",
   "lib": {
     "entryFile": "src/public-api.ts"
   }

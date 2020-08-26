@@ -1,0 +1,13 @@
+{
+  "name": "ng-gtag",
+  "version": "10.0.0",
+  "url": "https://github.com/Tonksi/ng-gtag/issues",
+  "peerDependencies": {
+    "@angular/cdk": "^10.0.11",
+    "@angular/common": "^10.0.11",
+    "@angular/core": "^10.0.11"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
