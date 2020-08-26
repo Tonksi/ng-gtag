@@ -5,7 +5,7 @@ import {
   AfterViewInit,
   ElementRef,
 } from '@angular/core';
-import { NgGtagEventService } from './google-analytics-events.service';
+import { GtagEventService } from './google-analytics-events.service';
 
 @Directive({
   selector: '[ngGtagEvent]',
@@ -17,7 +17,7 @@ export class GoogleAnalyticsEventsDirective implements AfterViewInit {
   @Input() gtagOptions: any;
 
   constructor(
-    private ngGtagEventService: NgGtagEventService,
+    private ngGtagEventService: GtagEventService,
     private renderer: Renderer2,
     private el: ElementRef
   ) {}

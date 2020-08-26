@@ -2,7 +2,7 @@ import { TestBed, ComponentFixture } from '@angular/core/testing';
 import { PLATFORM_ID } from '@angular/core';
 import { Component, ElementRef, Renderer2 } from '@angular/core';
 
-import { NgGtagEventService } from './google-analytics-events.service';
+import { GtagEventService } from './google-analytics-events.service';
 import { GoogleAnalyticsEventsDirective } from './google-analytics-events.directive';
 
 class MockElementRef implements ElementRef {
@@ -19,7 +19,7 @@ describe('GoogleAnalyticsEventsDirective', () => {
     TestBed.configureTestingModule({
       providers: [
         Renderer2,
-        NgGtagEventService,
+        GtagEventService,
         { provide: PLATFORM_ID, useValue: 'browser' },
         { provide: ElementRef, useClass: MockElementRef },
       ],

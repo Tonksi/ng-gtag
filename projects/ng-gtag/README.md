@@ -8,14 +8,14 @@ A simple and easy solution for adding google analytics page tracking to your ang
 
 ## Setup
 
-In your root module import `NgGtagModule`
+In your root module import `GtagModule`
 
 ```js
-import { NgGtagModule } from 'ng-gtag';
+import { GtagModule } from 'ng-gtag';
 
 @NgModule({
   imports: [
-    NgGtagModule.forRoot({trackingId: 'UA-<YOUR-GA-TRACKINGID>'})
+    GtagModule.forRoot({trackingId: 'UA-<YOUR-GA-TRACKINGID>'})
   ]
 })
 ```
@@ -23,7 +23,7 @@ import { NgGtagModule } from 'ng-gtag';
 Additionally you can pass options to the `forRoot` function. For example:
 
 ```js
-NgGtagModule.forRoot({
+GtagModule.forRoot({
   trackingId: "UA-<YOUR-GA-TRACKINGID>",
   options: { send_page_view: false },
 });
@@ -44,7 +44,7 @@ This package is also designed to work with Angular Universal projects.
 ### Service
 
 ```js
-NgGtagEventService.event({
+GtagEventService.event({
   action: "sale",
   options: { event_category: "engagement" },
 });
@@ -68,7 +68,7 @@ NgGtagEventService.event({
 It is as simple as passing array to the `forRoot` function when importing
 
 ```js
-NgGtagModule.forRoot([
+GtagModule.forRoot([
   {
     trackingId: "UA-<YOUR-GA-TRACKINGID1>",
     options: { send_page_view: false },

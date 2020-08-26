@@ -6,7 +6,7 @@ declare var gtag: any;
 @Injectable({
   providedIn: 'root',
 })
-export class NgGtagEventService {
+export class GtagEventService {
   constructor(@Inject(PLATFORM_ID) private platform) {}
 
   event(event: NgGtagEvent): void {

@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 import { PLATFORM_ID } from '@angular/core';
 
-import { NgGtagEventService } from './google-analytics-events.service';
+import { GtagEventService } from './google-analytics-events.service';
 
 describe('GoogleAnalyticsEventsService', () => {
   beforeEach(() =>
     TestBed.configureTestingModule({
       providers: [
-        NgGtagEventService,
+        GtagEventService,
         { provide: PLATFORM_ID, useValue: 'browser' },
       ],
       declarations: [],
@@ -15,7 +15,7 @@ describe('GoogleAnalyticsEventsService', () => {
   );
 
   it('should be created', () => {
-    const service: NgGtagEventService = TestBed.inject(NgGtagEventService);
+    const service: GtagEventService = TestBed.inject(GtagEventService);
     expect(service).toBeTruthy();
   });
 });
