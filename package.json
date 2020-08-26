@@ -1,7 +1,6 @@
 {
   "name": "ng-mat-theme-picker",
   "version": "0.0.0",
-  "url": "https://github.com/Tonksi/ng-mat-theme-picker/issues",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
