@@ -97,10 +97,3 @@ If you then want to specify a trackingId for an event you can use the option `se
 
 **Why?**  
 The move to gtag.js was a fairly significant API change and I was tired of having to add script tags to my `index.html` along with additional code to get page views to work correctly with Angular. I am also a strong believer in using server side rendering (SSR) and ran into numerous issues with some other packages.
-
-**Can you add this new feature?**  
-Maybe... If there is a demand for additional features I will look at implementing them.
-
-## License
-
-[MIT](LICENSE.md) Copyright (c) [fullstax](https://fullstax.net)
