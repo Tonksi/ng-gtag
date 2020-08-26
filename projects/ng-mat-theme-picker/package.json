@@ -1,0 +1,14 @@
+{
+  "name": "ng-mat-theme-picker",
+  "version": "0.0.3",
+  "peerDependencies": {
+    "@angular/cdk": "^10.0.11",
+    "@angular/common": "^10.0.11",
+    "@angular/core": "^10.0.11",
+    "@angular/material": "^10.0.11",
+    "defaulto": "^10.0.11"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

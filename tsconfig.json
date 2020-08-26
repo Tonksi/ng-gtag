@@ -12,6 +12,12 @@
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/ng-mat-theme-picker/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/ng-mat-theme-picker/tsconfig.spec.json"
     }
 ]
 }
